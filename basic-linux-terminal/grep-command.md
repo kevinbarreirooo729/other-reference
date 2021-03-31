@@ -2,7 +2,11 @@
 
 grep stands for Global Regular Expression Print.
 
+
+
+
 ## 1. You must navigate to the directory where the file or files are located to use grep on them. 
+
 
 ### grep "string-pattern-to-search" filename.extension
 * Returns text inside filename that matches "string-pattern-to-search". 
@@ -64,8 +68,9 @@ grep stands for Global Regular Expression Print.
 
 ## Note
 
-grep may be given a regular expression to search. For example, grep "\w+" filename.extension
+* grep may be given a regular expression to search. For example, grep "\w+" filename.extension
 
-For regular expression to work make sure you use the GNU version of grep. Check for the version of grep by running grep -V
+* For regular expression to work make sure you use the GNU version of grep. Check for the version of grep by running grep -V
+
 
 #### Thanks to Corey Schafer for the information. https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g
