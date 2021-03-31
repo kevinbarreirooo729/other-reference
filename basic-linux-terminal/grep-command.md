@@ -5,8 +5,8 @@ grep stands for Global Regular Expression Print.
 ## Note: You must navigate to the directory where the file or files are located to use grep on them. 
 
 ### grep "string-pattern-to-search" filename.extension
-    * Returns text inside filename that matches "string-pattern-to-search". 
-    * Defaults to case-sensitive search.
+* Returns text inside filename that matches "string-pattern-to-search". 
+* Defaults to case-sensitive search.
 
 ### grep -w "string-pattern-to-search" filename.extension
     * -w returns whole-word matches. 
