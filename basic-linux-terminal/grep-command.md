@@ -58,7 +58,7 @@
 * history | grep "git commit" | grep "-m Initial commit."
     * Data returned by history is given to grep "git commit" and processed, then to grep "-m Initial commit." and proccessed even further. 
 
-## Note
+## Notes
 
 * grep may be given a regular expression to search. For example, grep "\w+" filename.extension
 * grep stands for Global Regular Expression Print.
