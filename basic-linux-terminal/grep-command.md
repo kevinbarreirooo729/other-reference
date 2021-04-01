@@ -2,10 +2,7 @@
 
 grep stands for Global Regular Expression Print.
 
-
-
-
-## 1. You must navigate to the directory where the file or files are located to use grep on them. 
+* You must navigate to the directory where the file or files are located to use grep on them. 
 
 
 ### grep "string-pattern-to-search" filename.extension
