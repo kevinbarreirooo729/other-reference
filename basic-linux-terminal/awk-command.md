@@ -22,3 +22,6 @@
 ### awk '{ if ($1 ~ /regex-pattern/) print }' filename.txt
 * Prints the everything on the first column of filename.txt that equals /regex-pattern/.
 * With awk, ~ is an equal sign. 
+
+## Notes
+* Thanks to https://www.youtube.com/watch?v=az6vd0tGhJI for the tutorial.
