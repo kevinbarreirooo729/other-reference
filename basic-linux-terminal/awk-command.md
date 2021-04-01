@@ -23,5 +23,10 @@
 * Prints the everything on the first column of filename.txt that equals /regex-pattern/.
 * With awk, ~ is an equal sign. 
 
+### awk -f filename.awk filename.txt
+* Executes the awk code stored in filename.awk on filename.txt. 
+* You can write awk commands, like the ones previously shown, inside an awk file.
+* filename.awk can be edited with any text editor. 
+
 ## Notes
 * Thanks to https://www.youtube.com/watch?v=az6vd0tGhJI for the tutorial.
