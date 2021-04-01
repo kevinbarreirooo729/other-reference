@@ -40,7 +40,7 @@
     }
   * func funcName(args) {
   
-     return 'some text'
+       return 'some text'
      
     }
 * No datatype is specified for parameters or return value. 
