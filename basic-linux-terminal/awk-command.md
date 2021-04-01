@@ -48,4 +48,7 @@
 
 
 ## Notes
+* awk commands can be piped into other commands or programs using |
+ * awk '{ print }' filename.txt | grep "string-pattern-to-search-from-awk-output"
 * Thanks to https://www.youtube.com/watch?v=az6vd0tGhJI for the tutorial.
+* Thanks to https://www.youtube.com/watch?v=jJ02kEETw70 for the tutorial.
