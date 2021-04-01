@@ -39,7 +39,9 @@
   
     }
   * func funcName(args) {
+  
      return 'some text'
+     
     }
 * No datatype is specified for parameters or return value. 
 * No semi-colon after function or return statement. 
