@@ -28,5 +28,27 @@
 * You can write awk commands, like the ones previously shown, inside an awk file.
 * filename.awk can be edited with any text editor. 
 
+### for loop 
+* Similar syntax to Java for-loop except no semi-colon at the end or data types specified.
+* Placed within the curly braces, i.e. 
+  * awk '{ for(i=1;i<10;i++) { print } }' filename.text
+
+### function 
+* Syntax examples:
+  * func funcName(args) {
+  
+    }
+  * func funcName(args) {
+  
+       return 'some text'
+     
+    }
+* No datatype is specified for parameters or return value. 
+* No semi-colon after function or return statement. 
+
+
 ## Notes
+* awk commands can be piped into other commands or programs using |. For example,
+  * awk '{ print }' filename.txt | grep "string-pattern-to-search-from-awk-output"
 * Thanks to https://www.youtube.com/watch?v=az6vd0tGhJI for the tutorial.
+* Thanks to https://www.youtube.com/watch?v=jJ02kEETw70 for the tutorial.
