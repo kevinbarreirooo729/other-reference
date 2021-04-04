@@ -1,0 +1,11 @@
+# Restart Windows Subsystem for Linux (WSL) Terminal
+
+## Problem
+Sometimes the Linux Ubuntu Terminal in Windows is stuck running in the background and I am unable to reopen it. Restarting it fixes the problem.
+
+## Solution
+1. Open Windows Command Prompt
+2. Run the following command to shut down Ubuntu:
+  * wslconfig /t Ubuntu
+3. Restart Ubuntu terminal!
+  
