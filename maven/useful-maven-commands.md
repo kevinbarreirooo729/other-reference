@@ -5,4 +5,4 @@
 
 ### Run a maven project
 * In the Windows Terminal run the following command in the maven project root folder:
-  * ./mvnw spring-boot:run
+  * mvnw spring-boot:run
