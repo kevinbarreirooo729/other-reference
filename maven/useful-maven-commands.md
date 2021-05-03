@@ -11,4 +11,4 @@
 * When using Maven with a project that was initialized with Spring Initializr, make sure the version of Java that Maven is using matches the version of Java that was chosen in Spring Initialzr. To check the version of Java that Maven is using run the following command in the Windows Terminal:
   * mvn --version
 
-If the version of Java that Maven is using needs to be changed, then change the version of Java given to the JAVA_HOME environment variable. The Spring application should now run without problems. 
+   #### If the version of Java that Maven is using needs to be changed, then change the version of Java given to the JAVA_HOME environment variable. The Spring application should now run without problems. 
